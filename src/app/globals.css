@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --black: rgb(0,0,0);
+  --darkGreen: rgb(155,155,25);
 }
 
 @theme inline {
@@ -12,6 +14,18 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@layer utilities {
+  .clip-path-diagonal {
+    clip-path: polygon(2vw 0, 100% 0, calc(100% - 2vw) 100%, 0 100%);
+    transition: 0.1s;
+  }
+  .clip-path-diagonal:hover {
+    clip-path: polygon(1.5vw 0, calc(100% - 1vw) 0, calc(100% - 2vw) 100%, 0 100%);
+    border-radius: 2;
+  }
+}
+/* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw)); */
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -20,7 +34,17 @@
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(0.1turn, var(--black), var(--darkGreen)), url('../assets/images/illidanbg.jpg');
+  background-blend-mode: multiply; /* Blend the gradient with the image */
+  background-size: cover;  /* Cover the screen but keep aspect ratio */
+  background-position: center;
+  background-repeat: no-repeat;
+  
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh; /* Allows the page to extend beyond viewport */
+}
+
+div {
+  background-color: linear-gradient(black, rgba(0,0,0,0));
 }
