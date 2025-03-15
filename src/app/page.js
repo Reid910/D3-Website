@@ -1,8 +1,6 @@
 import Image from "next/image";
 
-import Footer from '../components/client/Each/Footer';
-
-import LightMode from "../components/client/LightMode";
+import Footer from '../components/client/Footer';
 
 export default function Home() {
   return (

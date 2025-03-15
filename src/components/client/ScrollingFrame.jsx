@@ -1,14 +1,9 @@
 import React from 'react';
 
-function ScrollingFrame({ children, height = '100%', width = '100%' }) {
+function ScrollingFrame({ children }) {
   return (
-    <div style={{ 
-      overflow: 'auto', 
-      height: height, 
-      width: width,
-      border: '1px solid #ccc' // Optional: for visual clarity
-    }}
-        className='rounded'
+    <div
+        className='rounded w-full h-full px-3 overflow-y-auto border-2 border-gray-800'
     >
       {children}
     </div>

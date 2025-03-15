@@ -1,12 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-import Img from '../assets/images/illidanbg.jpg';
-
 import Navbar from "@/components/client/Navbar";
-import Header from '../components/client/Each/Header';
-import Footer from '../components/client/Each/Footer';
-import BottomShadow from "@/components/client/Each/BottomShadow";
 import Shadows from "@/components/client/Shadows";
 
 const geistSans = Geist({
@@ -25,17 +20,14 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  // console.log(children);
   return (
     <html lang="en">
       <body
-        // style={{background: Img}}
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Shadows/>
         <Navbar/>
         {children}
-        {/* <BottomShadow/> */}
       </body>
     </html>
   );
