@@ -1,0 +1,1487 @@
+{
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/d3/season/30?namespace=2-6-us"
+      }
+    },
+    "leaderboard": [
+      {
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/achievement-points?namespace=2-6-US"
+        }
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-barbarian?namespace=2-6-US"
+        },
+        "hardcore": true,
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-barbarian?namespace=2-6-US"
+        },
+        "hardcore": true,
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-barbarian?namespace=2-6-US"
+        },
+        "hardcore": true,
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-barbarian?namespace=2-6-US"
+        },
+        "hardcore": true,
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-crusader?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-crusader?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-crusader?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-crusader?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-dh?namespace=2-6-US"
+        },
+        "hardcore": true,
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-dh?namespace=2-6-US"
+        },
+        "hardcore": true,
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-dh?namespace=2-6-US"
+        },
+        "hardcore": true,
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-dh?namespace=2-6-US"
+        },
+        "hardcore": true,
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-monk?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-monk?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-monk?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-monk?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-wd?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-wd?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-wd?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-wd?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-wizard?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-wizard?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-wizard?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-wizard?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-necromancer?namespace=2-6-US"
+        },
+        "hardcore": true,
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-necromancer?namespace=2-6-US"
+        },
+        "hardcore": true,
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-necromancer?namespace=2-6-US"
+        },
+        "hardcore": true,
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-necromancer?namespace=2-6-US"
+        },
+        "hardcore": true,
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 2,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-team-2?namespace=2-6-US"
+        }
+      },
+      {
+        "team_size": 2,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-team-2?namespace=2-6-US"
+        }
+      },
+      {
+        "team_size": 3,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-team-3?namespace=2-6-US"
+        }
+      },
+      {
+        "team_size": 3,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-team-3?namespace=2-6-US"
+        }
+      },
+      {
+        "team_size": 4,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-team-4?namespace=2-6-US"
+        }
+      },
+      {
+        "team_size": 4,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-team-4?namespace=2-6-US"
+        }
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-barbarian-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-barbarian-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-barbarian-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-barbarian-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-barbarian-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-barbarian-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-barbarian-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-barbarian-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-barbarian-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-barbarian-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-barbarian-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-barbarian-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-barbarian-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-barbarian-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-barbarian-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-barbarian-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-barbarian-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-barbarian-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-barbarian-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-barbarian-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-barbarian-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-barbarian-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-barbarian-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-barbarian-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "barbarian"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-crusader-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-crusader-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-crusader-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-crusader-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-crusader-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-crusader-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-crusader-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-crusader-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-crusader-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-crusader-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-crusader-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-crusader-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-crusader-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-crusader-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-crusader-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-crusader-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-crusader-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-crusader-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-crusader-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-crusader-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-crusader-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-crusader-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-crusader-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-crusader-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "crusader"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-demonhunter-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-demonhunter-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-demonhunter-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-demonhunter-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-demonhunter-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-demonhunter-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-demonhunter-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-demonhunter-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-demonhunter-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-demonhunter-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-demonhunter-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-demonhunter-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-demonhunter-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-demonhunter-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-demonhunter-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-demonhunter-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-demonhunter-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-demonhunter-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-demonhunter-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-demonhunter-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-demonhunter-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-demonhunter-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-demonhunter-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-demonhunter-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "dh"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-monk-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-monk-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-monk-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-monk-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-monk-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-monk-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-monk-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-monk-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-monk-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-monk-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-monk-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-monk-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-monk-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-monk-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-monk-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-monk-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-monk-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-monk-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-monk-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-monk-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-monk-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-monk-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-monk-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-monk-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "monk"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-witchdoctor-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-witchdoctor-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-witchdoctor-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-witchdoctor-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-witchdoctor-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-witchdoctor-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-witchdoctor-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-witchdoctor-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-witchdoctor-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-witchdoctor-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-witchdoctor-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-witchdoctor-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-witchdoctor-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-witchdoctor-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-witchdoctor-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-witchdoctor-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-witchdoctor-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-witchdoctor-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-witchdoctor-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-witchdoctor-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-witchdoctor-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-witchdoctor-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-witchdoctor-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-witchdoctor-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "wd"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-wizard-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-wizard-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-wizard-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-wizard-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-wizard-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-wizard-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-wizard-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-wizard-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-wizard-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-wizard-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-wizard-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-wizard-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-wizard-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-wizard-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-wizard-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-wizard-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-wizard-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-wizard-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-wizard-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-wizard-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-wizard-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-wizard-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-wizard-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-wizard-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "wizard"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-necromancer-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-necromancer-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-necromancer-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-necromancer-set1?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-necromancer-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-necromancer-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-necromancer-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-necromancer-set2?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-necromancer-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-necromancer-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-necromancer-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-necromancer-set3?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-necromancer-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-necromancer-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-necromancer-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-necromancer-set4?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-necromancer-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-necromancer-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-necromancer-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-necromancer-set5?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-hardcore-necromancer-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/rift-necromancer-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-hardcore-necromancer-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "team_size": 1,
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/solo-rift-necromancer-noset?namespace=2-6-US"
+        },
+        "hero_class_string": "necromancer"
+      },
+      {
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/74987243710562?namespace=2-6-US"
+        }
+      },
+      {
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/74987244415369?namespace=2-6-US"
+        }
+      },
+      {
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/74987246496081?namespace=2-6-US"
+        }
+      },
+      {
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/74987248177824?namespace=2-6-US"
+        }
+      },
+      {
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/74987248831502?namespace=2-6-US"
+        }
+      },
+      {
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/74987249351172?namespace=2-6-US"
+        }
+      },
+      {
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/74987252048933?namespace=2-6-US"
+        }
+      },
+      {
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/74987254415567?namespace=2-6-US"
+        }
+      },
+      {
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/74987255660017?namespace=2-6-US"
+        }
+      },
+      {
+        "ladder": {
+          "href": "https://us.api.blizzard.com/data/d3/season/30/leaderboard/74987259385858?namespace=2-6-US"
+        }
+      }
+    ],
+    "season_id": 30,
+    "last_update_time": "Tue, 18 Mar 2025 01:18:01 UTC",
+    "generated_by": "LAS1-D3-PURPLE-FOC-JOB001-01 2.8.0 branches/2_8_0-branches/2_8_0"
+  }

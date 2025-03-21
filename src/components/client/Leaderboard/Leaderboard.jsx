@@ -10,7 +10,20 @@ import { UppercaseFirstLetters } from '@/components/server/stringFuncs';
 import { useEffect, useRef, useState } from "react";
 import Dropdown from "@/components/client/DropdownMenu";
 
-export default function Page() {
+const Colors = {
+    amber: {
+        low: 'amber-500',
+        med: 'amber-500',
+        high: 'amber-500',
+    },
+    emerald: {
+        low: 'green-500',
+        med: 'green-500',
+        high: 'emerald-500',
+    }
+}
+
+export default function Page({Color}) {
     const [Region, SetRegion] = useState('us');
     const [Season, SetSeason] = useState(1);
     const [Hardcore, SetHardcore] = useState(false);
@@ -126,9 +139,8 @@ export default function Page() {
     }
     
     return (
-        <Background>
-            <h1 className="w-full mb-4 text-center text-6xl font-extrabold text-transparent bg-clip-text 
-                bg-gradient-to-b from-green-600 to-emerald-400">Seasonal Leaderboard</h1>
+        <div>
+            <h1 className={`w-full mb-4 text-center text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-green-600 to-emerald-400`}>Seasonal Leaderboard</h1>
             
             <div className="flex mb-4 text-2xl text-sky-500 justify-center text-center font-bold">
                 <h1 className="text-gray-500 italic">Displaying:</h1>
@@ -225,6 +237,6 @@ export default function Page() {
             </div>
             
             
-        </Background>
+        </div>
     );
 }
