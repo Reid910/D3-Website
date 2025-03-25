@@ -1,24 +1,32 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-First,
-```bash
-npm i
-```
 
-Then, run the development server:
+To get access to the API you would need:
 
-```bash
-npm run dev
-```
+Client ID and Client Secret from [https://develop.battle.net/access/clients]
 
-Get Client ID and Client Secret from [https://develop.battle.net/access/clients] by making and account and creating a client.
+You will need to make an account.
+
+Using your account you can create a Client, that has a Client ID and Client Secret.
 
 Add these to your env file as:
 
 ```bash
 REACT_APP_CLIENT_ID = your_client_id
 REACT_APP_CLIENT_SECRET = your_client_secret
+```
+
+Then, using npm
+
+```bash
+npm i
+```
+
+Run the development server:
+
+```bash
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
