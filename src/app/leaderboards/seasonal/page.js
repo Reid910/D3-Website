@@ -11,6 +11,7 @@ import { useEffect, useRef, useState } from "react";
 import Dropdown from "@/components/client/DropdownMenu";
 
 export default function Page() {
+    const [SearchBar, setSearchBar] = useState("");
     const [Search, setSearch] = useState("");
     
     const [Region, SetRegion] = useState('us');
@@ -29,7 +30,7 @@ export default function Page() {
     
     let TitleHasHardcode = useRef(Data?.title?.en_US.toLowerCase().includes('hardcore'));
     
-    const regions = [
+    const regions = [ // hard coded regions used to choose regions from dropdown menu
         {'value':'us'},
         {'value':'eu'},
         {'value':'kr'},
@@ -39,7 +40,13 @@ export default function Page() {
     let currentSeason = useRef(1);
     const seasons = Array.from({ length: currentSeason.current }, (_, i) => ({ value: (i + 1).toString() })); // thank you gpt!
     
-    // const [selectedStat, setSelectedStat] = useState('Rank'); // Default ranking stat
+    function FilterLeaderboardOptions() { // filters the list of leaderboards so that only the leaderboards that are filtered by will show up
+        const LBFilter = LeaderboardOptions.current.filter(e => {
+            return !isNaN(Number(e.value)) || Party === "Any" && e.value.includes('achievement') || (Party === "Any" || e.value.includes(Party)) && Hardcore === e.value.includes('hardcore');
+        })
+        SetFilteredLb(LBFilter);
+        // SetLeaderboard(LBFilter[0].value);
+    }
     
     useEffect(() => {
         // get season index ( current season )
@@ -62,7 +69,8 @@ export default function Page() {
             });
             
             LeaderboardOptions.current = lbOptions;
-            SetFilteredLb(lbOptions);
+            FilterLeaderboardOptions();
+            // SetFilteredLb(lbOptions);
             
             UniqueParties.forEach(({team_size, hero_class_string}) => {
                 if (team_size > 1) {
@@ -89,16 +97,8 @@ export default function Page() {
         })
     }, [Region,Season,Leaderboard]); // dependency array ( page state depends on x )
     
-    useEffect(() => {
-        const LBFilter = LeaderboardOptions.current.filter(e => {
-            return !isNaN(Number(e.value)) || Party === "Any" && e.value.includes('achievement') || (Party === "Any" || e.value.includes(Party)) && Hardcore === e.value.includes('hardcore');
-        })
-        
-        SetFilteredLb(LBFilter);
-        
-        SetLeaderboard(LBFilter[0].value);
-        
-    }, [Party,Hardcore]);
+    useEffect(FilterLeaderboardOptions, [Party,Hardcore]); // this allows the leaderboard list (dropdown menu) to update
+    // it updates whenever you select a rift party or a hardcore type
     
     function handleSearch(passing) {
         setSearch(passing.target.value);
@@ -132,7 +132,7 @@ export default function Page() {
                 <u className="text-lg">Conquest Description</u>{': ' + Data?.conquest_desc?.en_US}
             </h1>}
             
-            <div className='rounded w-full h-[90vh] px-3 mb-10 py-3 flex flex-col border-1 border-gray-800'> {/* flex container for search and dropdown menus */}
+            <div className='rounded-3xl w-full h-[90vh] px-3 mb-10 py-5 flex flex-col border-2 border-gray-800'> {/* flex container for search and dropdown menus */}
                 <div className="flex flex-row my-3"> {/* flex container for search and dropdown menus */}
                     <h1 className='flex flex-row my-2 mr-2 text-emerald-500 font-bold italic'>Select a Leaderboard:</h1>
                     {/* DROPDOWN MENUS */}
@@ -175,8 +175,7 @@ export default function Page() {
                 </div>
                 
                 <div className="flex flex-row mb-3"> {/* flex container for search and dropdown menus */}
-                    <div className="flex flex-1 text-sm"> {/* SEARCH BAR */}
-                        {/* <label className="text-white text-sm font-semibold">Username</label> */}
+                    <div className="flex flex-1 text-sm"> {/* SEARCH BAR (updates search every keystroke) */}
                         <input 
                             type="text"
                             onChange={handleSearch}
@@ -184,6 +183,29 @@ export default function Page() {
                             className="w-full p-2 z-5 border border-gray-600 rounded-md bg-gray-900 text-white
                                 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:shadow-xl focus:shadow-sky-700 duration-100"
                         />
+                    </div>
+                </div>
+                
+                <div className="flex flex-row mb-3"> {/* flex container for search and button */}
+                    <div className="flex flex-1 text-sm"> {/* SEARCH BAR (this is a custom one that waits for button press ) */}
+                        <input 
+                            type="text"
+                            onChange={e=>{setSearchBar(e.target.value)}}
+                            placeholder="Search - ( Name, Clan, Class )"
+                            className="w-full p-2 z-5 border border-gray-600 rounded-md bg-gray-900 text-white
+                                focus:outline-none focus:ring-2 focus:ring-sky-500 focus:shadow-xl focus:shadow-sky-700 duration-100"
+                        />
+                    </div>
+                    {/* BUTTON */}
+                    <div className="ml-3"> {/* Adds spacing between search bar and button */}
+                        <button 
+                            onClick={()=>{
+                                // handleSearch()
+                                setSearch(SearchBar);
+                            }}
+                            className="px-4 py-2 bg-gray-800 text-white rounded-md border-2 border-gray-700 hover:border-sky-500 hover:bg-gray-800 hover:shadow-lg hover:shadow-sky-500 duration-100">
+                            Search
+                        </button>
                     </div>
                 </div>
                 

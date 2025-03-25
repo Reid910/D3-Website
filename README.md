@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 To get access to the API you would need:
 
-Client ID and Client Secret from [https://develop.battle.net/access/clients]
+Client ID and Client Secret from [https://develop.battle.net/access/clients](battle.net/clients).
 
 You will need to make an account.
 
