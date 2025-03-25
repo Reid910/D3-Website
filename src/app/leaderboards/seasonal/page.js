@@ -195,7 +195,7 @@ export default function Page() {
                         Data.row.map(Team => {
                             const lower_search = Search.toLowerCase();
                             // if search is empty keep all elements or check match
-                            const Show = Search.trim() === "" || Team.player.some(player => player.data.some(
+                            const Show = (Search.trim() === "") || Team.player.some(player => player.data.some(
                                 val => val.id !== "GameAccount" && val.id !== "HeroVisualItems" && (val.number || val.string).toString().toLowerCase().includes(lower_search)
                             ))
                             // hiding elements instead of removing them makes it faster to show and hide while searching

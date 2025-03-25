@@ -29,8 +29,7 @@ export default function Rank({Show, Data, Team}) {
         <div key={Team.order}
             className={
                 `border-2 border-b--6 border-gray-700 rounded-md mt-1 hover:shadow-lg hover:shadow-sky-600 hover:border-sky-500 duration-300
-                ${!Show ? 'opacity-100' : 'opacity-0 h-0 overflow-hidden'}`
-                // ${Show && 'h-0 overflow-hidden'}`
+                ${!Show && 'hidden'}`
             }>
             <div key={Team.order} className='flex mt-1'>
                 {/* <div className={`flex-1 place-items-center grid grid-cols-2 gap-2 border`}> */}

@@ -36,15 +36,15 @@ export default function Page() {
         {'value':'tw'},
     ]
     
-    let currentEra = useRef(1);
-    const seasons = Array.from({ length: currentEra.current }, (_, i) => ({ value: (i + 1).toString() })); // thank you gpt!
+    let currentSeason = useRef(1);
+    const seasons = Array.from({ length: currentSeason.current }, (_, i) => ({ value: (i + 1).toString() })); // thank you gpt!
     
     // const [selectedStat, setSelectedStat] = useState('Rank'); // Default ranking stat
     
     useEffect(() => {
         // get season index ( current season )
         GetSeasonIndex(Region).then((seasonsList) => {
-            currentEra.current = seasonsList.current_season;
+            currentSeason.current = seasonsList.current_season;
             SetSeason(seasonsList.current_season);
         })
     }, [Region]);
@@ -192,16 +192,25 @@ export default function Page() {
                         <h1 className="w-full my-10 text-center text-3xl font-extrabold text-transparent bg-clip-text 
                             bg-gradient-to-r from-sky-400 to-blue-900">Loading...</h1>
                     ) : (
-                        Data.row.filter(Team => {
-                            if (Search.trim() === "") return true; // if search is empty keep all elements
-                            // const value_obj = Team.data.find(e=>e.id===l)
+                        Data.row.map(Team => {
                             const lower_search = Search.toLowerCase();
-                            return Team.player.some(player => player.data.some(
+                            // if search is empty keep all elements or check match
+                            const Show = (Search.trim() === "") || Team.player.some(player => player.data.some(
                                 val => val.id !== "GameAccount" && val.id !== "HeroVisualItems" && (val.number || val.string).toString().toLowerCase().includes(lower_search)
                             ))
-                        }).map(Team => (
-                            <RankDetail key={Team.order} Data={Data} Team={Team} />
-                        ))
+                            // hiding elements instead of removing them makes it faster to show and hide while searching
+                            return <RankDetail key={Team.order} Show={Show} Data={Data} Team={Team} />
+                        })
+                        // Data.row.filter(Team => {
+                        //     if (Search.trim() === "") return true; // if search is empty keep all elements
+                        //     // const value_obj = Team.data.find(e=>e.id===l)
+                        //     const lower_search = Search.toLowerCase();
+                        //     return Team.player.some(player => player.data.some(
+                        //         val => val.id !== "GameAccount" && val.id !== "HeroVisualItems" && (val.number || val.string).toString().toLowerCase().includes(lower_search)
+                        //     ))
+                        // }).map(Team => (
+                        //     <RankDetail key={Team.order} Data={Data} Team={Team} />
+                        // ))
                     )}
                 </ScrollingFrame>
             </div>
