@@ -1,5 +1,4 @@
 export default function Dropdown({Options, Selected, setSelectedStat, label, className}) {
-    console.log(typeof(Options[0].value),Options[0].value);
     return <div className={className}>
         {/* Add a label that will overlap the dropdown */}
         {label && (

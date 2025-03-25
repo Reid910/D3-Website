@@ -59,4 +59,16 @@ async function GetSeasonalLeaderboard(region,season,leaderboard) {
     return await fetchResponse(`https://${region || 'us'}.api.blizzard.com/data/d3/season/${season || 1}/leaderboard/${leaderboard || 'achievement-points'}`);
 }
 
+async function GetEraIndex(region) {
+    
+}
+
+async function GetEraLeaderboardTypes(region,era) {
+    
+}
+
+async function GetEraLeaderboard(region,era,leaderboard) {
+    
+}
+
 export { GetSeasonIndex, GetSeasonLeaderboardTypes, GetSeasonalLeaderboard };

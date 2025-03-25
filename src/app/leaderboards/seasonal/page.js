@@ -4,7 +4,6 @@ import Background from "@/components/client/Background";
 import ScrollingFrame from "@/components/client/ScrollingFrame";
 
 import RankDetail from '@/components/client/Leaderboard/RankDetail';
-import Player from '@/components/client/Leaderboard/PlayerDetail';
 
 import { GetSeasonIndex, GetSeasonLeaderboardTypes, GetSeasonalLeaderboard } from '@/components/server/API_requests';
 import { UppercaseFirstLetters } from '@/components/server/stringFuncs';
@@ -23,10 +22,10 @@ export default function Page() {
     const [Data, setData] = useState(null);
     const [Loading, setLoading] = useState(true);
     
+    const [FilteredLb, SetFilteredLb] = useState([{'value':'achievement-points'}]);
+    
     let PartyOptions = useRef([{'value':'Any'}]);
     let LeaderboardOptions = useRef([{'value':'achievement-points'}]);
-    
-    const [FilteredLb, SetFilteredLb] = useState([{'value':'achievement-points'}]);
     
     let TitleHasHardcode = useRef(Data?.title?.en_US.toLowerCase().includes('hardcore'));
     
@@ -40,26 +39,11 @@ export default function Page() {
     let currentSeason = useRef(1);
     const seasons = Array.from({ length: currentSeason.current }, (_, i) => ({ value: (i + 1).toString() })); // thank you gpt!
     
-    const [selectedStat, setSelectedStat] = useState('Rank'); // Default ranking stat
-    
-    const DataMapped = Data?.row?.map((player) => {
-        // Create dataMap ONCE per player ( makes it easier to get data from player ( it was in two arrays and not in a map ) )
-        const dataMap = new Map()
-        
-        player.data.forEach(o => {
-            dataMap.set(o.id, o.string || o.number || o.timestamp)
-        });
-        player.player[0]?.data.forEach(o => {
-            dataMap.set(o.id, o.string || o.number || o.timestamp)
-        });
-        
-        return { player, dataMap }; // Store both in an array
-    });
+    // const [selectedStat, setSelectedStat] = useState('Rank'); // Default ranking stat
     
     useEffect(() => {
         // get season index ( current season )
         GetSeasonIndex(Region).then((seasonsList) => {
-            console.log(seasonsList);
             currentSeason.current = seasonsList.current_season;
             SetSeason(seasonsList.current_season);
         })
@@ -68,11 +52,8 @@ export default function Page() {
     useEffect(() => {
         // get a list of leaderboards for the season
         GetSeasonLeaderboardTypes(Region,Season).then((LbTypes) => {
-            console.log(LbTypes);
-            
             const pOptions = [{'value':'Any'}];
             const UniqueParties = new Map();
-            
             const lbOptions = [];
             LbTypes.leaderboard?.forEach((ele,index) => {
                 const lb = ele.ladder?.href.split("/").slice(-1)[0].split("?")[0]
@@ -101,8 +82,8 @@ export default function Page() {
     useEffect(() => {
         // fetch data here
         GetSeasonalLeaderboard(Region,Season,Leaderboard).then((Data) => {
-            console.log(Data);
             setData(Data);
+            console.log(Data);
             TitleHasHardcode.current = Data?.title?.en_US.toLowerCase().includes('hardcore');
             setLoading(false);
         })
@@ -110,7 +91,6 @@ export default function Page() {
     
     useEffect(() => {
         const LBFilter = LeaderboardOptions.current.filter(e => {
-            console.log(Hardcore,Hardcore == true,typeof(Hardcore));
             return !isNaN(Number(e.value)) || Party === "Any" && e.value.includes('achievement') || (Party === "Any" || e.value.includes(Party)) && Hardcore === e.value.includes('hardcore');
         })
         
@@ -121,7 +101,6 @@ export default function Page() {
     }, [Party,Hardcore]);
     
     function handleSearch(passing) {
-        // console.log(passing,passing.target.value);
         setSearch(passing.target.value);
     }
     
@@ -150,10 +129,10 @@ export default function Page() {
             </div>
             
             {Data?.conquest_desc && <h1 className="mx-auto mb-4 p-2 w-2/3 text-center text-md text-white border border-gray-800 rounded-lg">
-                <u className="text-sm">Conquest Desc</u>{': ' + Data?.conquest_desc?.en_US}
+                <u className="text-lg">Conquest Description</u>{': ' + Data?.conquest_desc?.en_US}
             </h1>}
             
-            <div className='rounded w-full h-[85vh] px-3 mb-10 flex flex-col border-1 border-gray-800'> {/* flex container for search and dropdown menus */}
+            <div className='rounded w-full h-[90vh] px-3 mb-10 py-3 flex flex-col border-1 border-gray-800'> {/* flex container for search and dropdown menus */}
                 <div className="flex flex-row my-3"> {/* flex container for search and dropdown menus */}
                     <h1 className='flex flex-row my-2 mr-2 text-emerald-500 font-bold italic'>Select a Leaderboard:</h1>
                     {/* DROPDOWN MENUS */}
@@ -209,40 +188,29 @@ export default function Page() {
                 </div>
                 
                 <ScrollingFrame>
-                    {/* <div className="flex items-center justify-between bg-gray-950 border border-gray-700 rounded-lg my-2 p-4 shadow-md shadow-gray-800 hover:shadow-green-500 hover:shadow-lg transition duration-250"></div> */}
-                    
-                    {/* {Loading ? (
-                        <h1 className="w-full my-10 text-center text-3xl font-extrabold text-transparent bg-clip-text 
-                            bg-gradient-to-r from-sky-400 to-blue-900">Loading...</h1>
-                    ) : (
-                        
-                        Data.row.map(Team => (
-                            <RankDetail key={Team.order} Data={Data} Team={Team} />
-                        ))
-                        
-                    )} */}
-                    
                     {Loading ? (
                         <h1 className="w-full my-10 text-center text-3xl font-extrabold text-transparent bg-clip-text 
                             bg-gradient-to-r from-sky-400 to-blue-900">Loading...</h1>
                     ) : (
-                        <div>
-                            {
-                                DataMapped.filter(({ dataMap }) => {
-                                    // If search is empty, show all players
-                                    if (Search.trim() === "") return true;
-                                    
-                                    // Check if the search term matches BattleTag or HeroBattleTag
-                                    return (
-                                        (dataMap.get('BattleTag')?.toLowerCase().includes(Search.toLowerCase())) ||
-                                        (dataMap.get('HeroBattleTag')?.toLowerCase().includes(Search.toLowerCase()))
-                                    );
-                                })
-                                .map(({ player, dataMap }, index) => (
-                                    <Player key={index} selectedTitle={Data.column[2].label.en_US} selectedStat={player.data[1].id} Data={Data} player={player} dataMap={dataMap} Hardcore={TitleHasHardcode.current} />
-                                ))
-                            }
-                        </div>
+                        Data.row.map(Team => {
+                            const lower_search = Search.toLowerCase();
+                            // if search is empty keep all elements or check match
+                            const Show = Search.trim() === "" || Team.player.some(player => player.data.some(
+                                val => val.id !== "GameAccount" && val.id !== "HeroVisualItems" && (val.number || val.string).toString().toLowerCase().includes(lower_search)
+                            ))
+                            // hiding elements instead of removing them makes it faster to show and hide while searching
+                            return <RankDetail key={Team.order} Show={Show} Data={Data} Team={Team} />
+                        })
+                        // Data.row.filter(Team => {
+                        //     if (Search.trim() === "") return true; // if search is empty keep all elements
+                        //     // const value_obj = Team.data.find(e=>e.id===l)
+                        //     const lower_search = Search.toLowerCase();
+                        //     return Team.player.some(player => player.data.some(
+                        //         val => val.id !== "GameAccount" && val.id !== "HeroVisualItems" && (val.number || val.string).toString().toLowerCase().includes(lower_search)
+                        //     ))
+                        // }).map(Team => (
+                        //     <RankDetail key={Team.order} Data={Data} Team={Team} />
+                        // ))
                     )}
                 </ScrollingFrame>
             </div>

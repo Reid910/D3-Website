@@ -7,7 +7,7 @@ export default function NavButton({ label, to, txt, icon }) {
             <Link
                 href={to || '/'}
                 // style={{background: 'linear-gradient(0.3turn, black, rgba(0,0,0,0))'}}
-                className="border-b px-12 py-2 bg-gray-900 hover:border-b-12 hover:bg-gray-600 text-lg font-semibold uppercase transition-all clip-path-diagonal"
+                className="border-b border-gray-600 px-12 py-2 bg-gray-900 hover:border-white hover:border-b-12 hover:bg-gray-600 text-lg font-semibold uppercase transition-all clip-path-diagonal"
                 // className="relative border-b mx-3 px-12 py-2 bg-black hover:bg-gray-600 text-lg font-semibold uppercase transition-all"
             >
                 {label}
